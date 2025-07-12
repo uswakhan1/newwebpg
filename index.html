@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TastyBites</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.jpg"  />
+    <h1>TastyBites</h1>
+    <nav>
+
+    <a href="menu.html">Menu</a>
+    <a href="About.html">About us</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+ <section class="hero">
+    <h2>Welcome to TastyBites</h2>
+    <p>Your favorite destination for delicious food.</p>
+  </section>
+
+
+  <section class="gallery-grid">
+    <img src="chocolate molten cakes.jpg" alt="Molten Cake" />
+    <img src="Chocolate sandwich cupcakes.jpg" alt="Cupcakes" />
+    <img src="pasta.jpeg" alt="Pasta" />
+    <img src="burger.jpg" alt="Burger" />
+    <img src="Classic French Macarons.jpg" alt="Dessert" />
+  </section>
+
+ 
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TastyBites. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
